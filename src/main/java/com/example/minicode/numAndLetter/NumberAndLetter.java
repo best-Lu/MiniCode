@@ -1,11 +1,14 @@
 package com.example.minicode.numAndLetter;
 
 
+import org.springframework.stereotype.Component;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+@Component
 public class NumberAndLetter {
     public List<String> letterCombinations(Integer[] digits) {
         List<String> result = new ArrayList<>();
